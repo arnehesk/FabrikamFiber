@@ -13,12 +13,7 @@ AS
     BEGIN
         SET NOCOUNT ON;
         SELECT  FirstName ,
-                LastName ,
-                Address_Street ,
-                Address_Zip ,
-                Address_State ,
-                ID ,
-                [Identity]
+                LastName
         FROM    dbo.Employees;
     END;
 GO
