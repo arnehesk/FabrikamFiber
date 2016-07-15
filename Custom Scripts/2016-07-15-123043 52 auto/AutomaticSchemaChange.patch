@@ -1,0 +1,14 @@
+diff --git a/RedGateDatabaseInfo.xml b/RedGateDatabaseInfo.xml
+index d1e3a18..b9bc6e6 100644
+--- a/RedGateDatabaseInfo.xml
++++ b/RedGateDatabaseInfo.xml
+@@ -57,6 +57,7 @@
+     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
+   </WriteToFileOptions>
+   <DataFileSet>
+-    <Count>0</Count>
++    <Count>1</Count>
++    <DataFile>dbo.Alerts_Data.sql</DataFile>
+   </DataFileSet>
+ </DatabaseInformation>
+\ No newline at end of file
