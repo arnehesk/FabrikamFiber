@@ -1,0 +1,30 @@
+diff --git a/Tables/dbo.Clients.sql b/Tables/dbo.Clients.sql
+index 174b726..7d39bf3 100644
+--- a/Tables/dbo.Clients.sql
++++ b/Tables/dbo.Clients.sql
+@@ -1,12 +1,13 @@
+-CREATE TABLE [dbo].[Clients]
+-(
+-[ID] [int] NOT NULL IDENTITY(1, 1),
+-[Address_Street] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+-[Address_City] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+-[Address_State] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+-[Address_Zip] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+-[FullName] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+-GO
+-ALTER TABLE [dbo].[Clients] ADD CONSTRAINT [PK__Customer__3214EC27A1E533D6] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
+-GO
++CREATE TABLE [dbo].[Clients]
++(
++[ID] [int] NOT NULL IDENTITY(1, 1),
++[Address_Street] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Address_City] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Address_State] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Address_Zip] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[First_Name] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[Last_Name] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
++) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
++GO
++ALTER TABLE [dbo].[Clients] ADD CONSTRAINT [PK__Customer__3214EC27A1E533D6] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
++GO
