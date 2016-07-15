@@ -14,11 +14,12 @@ AS
     BEGIN
         SET NOCOUNT ON;	
         SELECT  First_Name ,
-                Last_Name,
+                Last_Name ,
                 Address_City ,
                 Address_State ,
                 Address_Street ,
-                Address_Zip
+                Address_Zip ,
+                ID
         FROM    dbo.Clients;
     END;
 
