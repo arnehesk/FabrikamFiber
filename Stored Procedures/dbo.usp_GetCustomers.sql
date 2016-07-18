@@ -13,7 +13,8 @@ CREATE PROCEDURE [dbo].[usp_GetCustomers]
 AS
     BEGIN
         SET NOCOUNT ON;	
-        SELECT  FullName,
+        SELECT  First_Name ,
+                Last_Name,
                 Address_City ,
                 Address_State ,
                 Address_Street ,
