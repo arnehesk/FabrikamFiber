@@ -1,0 +1,11 @@
+{
+  "Id": "1a5cb0e2-c975-494a-95fd-f0e77fff8a3c",
+  "Name": "Covers changes to: Clients. Script created at 2016-07-19 09:20.",
+  "ObjectIds": [
+    {
+      "Name": "Clients",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    }
+  ]
+}
